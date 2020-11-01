@@ -1,1 +1,1 @@
-# http-zone-infinity.github.io-
+# zone-infinity.github.io
