@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Redirecting...</title>
-        <h1>Redirecting to git repository</h1>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zone Infinity</title>
     </head>
 </html>
+<body>
+    <h1>Click the button to go to this sites git</h1>
+    <form name="authForm" action="/auth" onsubmit="return redirect()" method="post">
+        <input type="submit" value="Login">
+    </form>
+</body>
 <script>
-    window.location.href="https://github.com/Zone-Infinity/zone-infinity.github.io";
+    const redirect = () => {
+        window.location.href="https://github.com/Zone-Infinity/zone-infinity.github.io";
+    }
 </script>
